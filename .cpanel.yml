@@ -1,0 +1,4 @@
+deployment:
+ tasks:
+  - export DEPLOYPATH=/home/bluelogic/repositories/programarionline
+  - /bin/cp -R src/ $DEPLOYPATH
